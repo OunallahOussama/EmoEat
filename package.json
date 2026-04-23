@@ -1,0 +1,15 @@
+{
+  "name": "emoeat-ui",
+  "private": true,
+  "scripts": {
+    "build:css": "npx @tailwindcss/cli -i src/app.css -o public/assets/css/flyonui.css --minify",
+    "dev:css": "npx @tailwindcss/cli -i src/app.css -o public/assets/css/flyonui.css --watch"
+  },
+  "dependencies": {
+    "flyonui": "^2.4.1",
+    "tailwindcss": "^4"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4"
+  }
+}

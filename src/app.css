@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@plugin "flyonui";
+@import "flyonui/variants.css";
+@source "flyonui/dist/index.js";
+
+@source "../app/Views/**/*.php";
+@source "../public/**/*.php";
+
+/* RTL Support */
+[dir="rtl"] { direction: rtl; text-align: right; }
+[dir="rtl"] .navbar .flex-row { flex-direction: row-reverse; }

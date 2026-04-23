@@ -1,0 +1,13 @@
+{
+    "name": "emoeat/web-mvc",
+    "description": "EmoEat - Emotional Eating MVC App with LLM Quiz & Gamification",
+    "type": "project",
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
